@@ -1,0 +1,134 @@
+.container {
+  color: #25615f;
+}
+.header {
+  margin-right: 100px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  font-weight: 300;
+  font-size: 18px;
+}
+.intro_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+}
+.intro_text {
+	margin-left: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: justify;
+  font-weight: 300;
+  font-size: 14px;
+}
+.intro_text span {
+  font-weight: 500;
+}
+.social_icon {
+  color: #25615f;
+}
+
+.intro_img {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.intro_img img {
+  width: 100%;
+  height: auto;
+}
+.card_container{
+	padding-top: 20px ;
+	padding-left: 100px;
+	padding-right: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 40px;
+}
+
+.card_wrapper{
+	background-color: #fff;
+	color: #25615F;
+	font-weight: 300;
+	font-size: 14px;
+	width: 500px;
+	padding: 30px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.card_header{
+	color: #25615F;
+	font-weight: 400;
+	font-size: 16px;
+}
+.card_wrapper img{
+	width: 100%;
+	border-radius: 12px;
+}
+.card_button_wrapper{
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.mobile_button, .ui_button, .colab_button{
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.mobile_button{
+	background-color: #F2E0FF;
+	color: #794c9a;
+}
+
+.ui_button{
+	background-color: #CDFFF9;
+	color: #273f3c;
+}
+
+.colab_button{
+  background-color: #eee6c9;
+  color: #715a07
+}
+.detail_button_wrapper{
+	margin-top: 20px;
+}
+
+.detail_button{
+	background-color: #25615fad;
+	color: #fff;
+	width: 100%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+	font-weight: 300;
+  cursor: pointer;
+}
+
+.detail_accordion_wrapper{
+	margin-top: 20px;
+	color: #25615F;
+	font-size: 16px;
+	font-weight: 400;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	align-items: center;
+}
+.dropdown_icon{
+	transition: transform 0.2s;
+}
+.dropdown_icon_open{
+	transform: rotate(180deg);
+}
+
+
+

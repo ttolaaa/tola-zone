@@ -1,0 +1,31 @@
+.intro_wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-shrink: 1;
+}
+.intro_text {
+		margin-left: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: justify;
+	font-weight: 300;
+	font-size: 14px;
+}
+.intro_text span {
+	font-weight: 500;
+}
+.social_icon {
+	color: #25615f;
+}
+
+.intro_img {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.intro_img img {
+	width: 100%;
+	height: auto;
+}
+
+
+
